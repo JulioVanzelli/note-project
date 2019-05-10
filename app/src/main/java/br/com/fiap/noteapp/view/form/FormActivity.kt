@@ -12,7 +12,7 @@ class FormActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_form)
 
-        button.setOnClickListener {
+        btSave.setOnClickListener {
             setResult(Activity.RESULT_OK)
             finish()
         }
